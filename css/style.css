@@ -1,0 +1,181 @@
+.wrapper{
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 80%;
+  margin:0 auto;
+  height: 100%;
+}
+
+header{
+width: 100%;
+border-radius: 15px 15px 0 0;
+float: left;
+text-align: center;
+background-color: #eeae61;
+}
+header #channels{
+  width: 100%;
+}
+header div{
+  width: 33%;
+  padding: 15px 2px;
+  float: left;
+  box-sizing: border-box;
+}
+header div.control{
+  cursor:pointer;
+  text-align: left;
+  padding-left: 10px;
+}
+
+header div.control:hover i{
+transform: scale(1.5);
+opacity: .5;
+transition-duration: 1s;
+}
+
+header div.ch-name{
+text-align: center;
+}
+header div.off{
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+  cursor:pointer;
+}
+
+header div.off:hover{
+  color:red;
+}
+
+header div h4{
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-family: fantasy;
+
+}
+header::after{
+  display: block;
+  clear: both;
+  content: '';
+}
+
+main{
+  float: left;
+  width: 100%;
+  background: #282833;
+}
+main .channel-title{
+  cursor:pointer;
+  width: 90%;
+  margin:0 5%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+}
+main .channel-title:hover  .ch-name{
+  color:yellow;
+
+}
+
+
+main .channel-title:last-child{
+border: none;
+}
+
+main .channel-body{
+  width: 70%;
+  margin:0 15%;
+  float: left;
+  height: 0;
+  overflow: hidden;
+
+}
+main .channel-body .btn-prev{
+  cursor:pointer;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  padding-top: 20%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+main .channel-body .btn-prev:hover ,main .channel-body .btn-next:hover{
+  opacity: .5;
+}
+
+main .channel-body .ch-logo{
+  float: left;
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.ch-logo img{
+  width: 80%;
+  border-radius: 50%;
+
+}
+main .channel-body .btn-next{
+  cursor:pointer;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  padding-top: 20%;
+  box-sizing: border-box;
+  text-align: right;
+}
+main .ch-name{
+  width: 70%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: fantasy;
+  color: #bbb;
+}
+main .freq{
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  text-align: right;
+  padding: 20px;
+  font-size: 25px;
+  font-family: fantasy;
+  color: #bbb;
+}
+footer{
+  border-top: 1px solid white;
+  float: left;
+  padding-top: 35px;
+  width: 100%;
+  background-color: #22222b;
+    border-radius: 0 0 15px 15px;
+  margin-bottom: 10px;
+}
+footer h4{
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family:sans-serif;
+  color:#eee;
+  padding: 5px;
+}
+footer h6{
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  font-family:sans-serif;
+  color:orange;
+  padding: 5px
+}
+
+i.fa{
+  color: white;
+}
