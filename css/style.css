@@ -8,6 +8,7 @@
   width: 80%;
   margin:0 auto;
   height: 100%;
+
 }
 
 header{
@@ -175,7 +176,37 @@ footer h6{
   color:orange;
   padding: 5px
 }
-
 i.fa{
   color: white;
+}
+@media (max-width:500px){
+  .container{
+    width : 95%;
+  }
+
+  header div.off , header div.control{
+    transform: scale(.5);
+  }
+
+
+  header div h4{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: fantasy;
+
+  }
+  main .ch-name{
+
+    padding: 10px;
+
+    font-size: 15px;
+
+  }
+  main .freq{
+
+    padding: 10px;
+    font-size: 15px;
+
+  }
 }
