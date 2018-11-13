@@ -209,4 +209,12 @@ i.fa{
     font-size: 15px;
 
   }
+  main .channel-body{
+    width: 80%;
+    margin:0 10%;
+    float: left;
+    height: 0;
+    overflow: hidden;
+
+  }
 }
